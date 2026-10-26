@@ -3,7 +3,7 @@
     top: 0;
     left: 0;
     width: 100vw;
-    height: 100vh;
+    height: calc(100vh - 44px);
     z-index: 9;
     pointer-events: none;
     background-image: url('./Video\ Project\ 12.gif');
@@ -16,8 +16,15 @@
 .survey-info-panel {
     position: fixed;
     bottom: 0;
+    left: 0;
     z-index: 10;
     width: 100vw;
+    background: black;
+}
+
+.information-gathering {
+    width: 100%;
+    margin: 0;
 }
 
 .give-it-to-us {
